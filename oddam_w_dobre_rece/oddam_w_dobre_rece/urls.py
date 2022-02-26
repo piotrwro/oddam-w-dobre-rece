@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.contrib.auth import views as auth_views
 
 from home.views import Index, Form, FormConf, Login, Register
 
@@ -22,10 +23,11 @@ from home.views import Index, Form, FormConf, Login, Register
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', Index.as_view()),
-    path('form/', Form.as_view()),
+    path('', Index.as_view(), name='index'),
+    path('form/', Form.as_view(), name='form'),
     path('formconf/', FormConf.as_view()),
-    path('login/', Login.as_view()),
-    path('register/', Register.as_view())
+    path('login/', Login.as_view(), name='login'),
+    path('logout', auth_views.LogoutView.as_view( template_name='index.html'), name='logout'),
+    path('register/', Register.as_view(), name='register')
 
 ]

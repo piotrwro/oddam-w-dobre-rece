@@ -9,12 +9,18 @@ TYPE = ((1, 'fundacja'),
 class Category(models.Model):
     name = models.CharField(max_length=255)
 
+    def __str__(self):
+        return self.name
+
 
 class Institution(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
     type = models.IntegerField(choices=TYPE)
     categories = models.ManyToManyField(Category,)
+
+    def __str__(self):
+        return self.name
 
 
 class Donation(models.Model):
@@ -30,6 +36,10 @@ class Donation(models.Model):
     pick_up_time = models.DateTimeField()
     pick_up_comment = models.TextField()
     user = models.ForeignKey(get_user_model(), null=True, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.institution.name
+
 
 
 
