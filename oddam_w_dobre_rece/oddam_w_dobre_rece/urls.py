@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.contrib.auth import views as auth_views
 
-from home.views import Index, Form, FormConf, Login, Register
+from home.views import Index, Form, FormConf, Login, Register, Userprofile
 
 
 
@@ -28,6 +28,7 @@ urlpatterns = [
     path('formconf/', FormConf.as_view()),
     path('login/', Login.as_view(), name='login'),
     path('logout', auth_views.LogoutView.as_view( template_name='index.html'), name='logout'),
-    path('register/', Register.as_view(), name='register')
+    path('register/', Register.as_view(), name='register'),
+    path('userprofile', Userprofile.as_view(), name='userprofile')
 
 ]

@@ -7,17 +7,17 @@ TYPE = ((1, 'fundacja'),
         (4, 'domyślna fundacja'))
 
 class Category(models.Model):
-    name = models.CharField(max_length=255)
+    name = models.CharField(max_length=255, verbose_name='nazwa kategorii')
 
     def __str__(self):
         return self.name
 
 
 class Institution(models.Model):
-    name = models.CharField(max_length=255)
-    description = models.TextField()
+    name = models.CharField(max_length=255, verbose_name='Nazwa instytucji')
+    description = models.TextField(verbose_name='Opis')
     type = models.IntegerField(choices=TYPE)
-    categories = models.ManyToManyField(Category,)
+    categories = models.ManyToManyField(Category, verbose_name='Kategorie darów' )
 
     def __str__(self):
         return self.name
