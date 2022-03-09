@@ -27,7 +27,7 @@ urlpatterns = [
     path('form/', Form.as_view(), name='form'),
     path('formconf/', FormConf.as_view(), name='form-confirmation'),
     path('login/', Login.as_view(), name='login'),
-    path('logout', auth_views.LogoutView.as_view( template_name='index.html'), name='logout'),
+    path('logout', auth_views.LogoutView.as_view(template_name='index.html'), name='logout'),
     path('register/', Register.as_view(), name='register'),
     path('userprofile', Userprofile.as_view(), name='userprofile')
 
