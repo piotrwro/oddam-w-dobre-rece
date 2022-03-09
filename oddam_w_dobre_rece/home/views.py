@@ -5,7 +5,9 @@ from django.views import View
 
 from home.models import Institution, Category, Donation
 
-from home.form import DonationForm
+from home.form import DonationForm, RegistrationUser
+
+
 
 
 class Index(View):
@@ -55,18 +57,15 @@ class Register(View):
         return render(request, "register.html")
 
     def post(self, request):
-        username = request.POST.get('email')
-        first_name = request.POST.get('name')
-        last_name = request.POST.get('surname')
-        password = request.POST.get('password')
-        password2 = request.POST.get('password2')
-        if not username or not password or password != password2:
-            ctx = {"text": "Uzupełnij pola"}
-            return render(request, 'create_user.html', ctx)
-        else:
-            User.objects.create_user(username=username, email=None, password=password, first_name=first_name,
-                                     last_name=last_name)
-            return render(request, 'register.html', context={'email': username, 'password': password})
+       RegistrationUser_form = RegistrationUser(request.POST)
+       if RegistrationUser_form.is_valid():
+           RegistrationUser_form.save()
+
+           return redirect( "index.html", )
+
+
+
+
 
 
 class Userprofile(View):

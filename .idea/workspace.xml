@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="485f55e1-ae9d-4451-beed-8ab71fdf3afb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/oddam_w_dobre_rece/home/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/oddam_w_dobre_rece/home/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oddam_w_dobre_rece/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/oddam_w_dobre_rece/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oddam_w_dobre_rece/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/oddam_w_dobre_rece/static/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oddam_w_dobre_rece/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/oddam_w_dobre_rece/templates/register.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25FROA84bD0M6IhzN2xISCor1Ky" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ONL_PYT_W_12_final_project/zuzas_store/views.py" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="485f55e1-ae9d-4451-beed-8ab71fdf3afb" name="Changes" comment="" />
+      <created>1645120813679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645120813679</updated>
+      <workItem from="1645120814967" duration="4983000" />
+      <workItem from="1645288707953" duration="12012000" />
+      <workItem from="1645360014585" duration="11379000" />
+      <workItem from="1645380913456" duration="1724000" />
+      <workItem from="1645384540410" duration="2000" />
+      <workItem from="1645463257791" duration="5274000" />
+      <workItem from="1645472677357" duration="2000" />
+      <workItem from="1645549007358" duration="3492000" />
+      <workItem from="1645725568160" duration="5269000" />
+      <workItem from="1645808285564" duration="3497000" />
+      <workItem from="1645812143438" duration="5997000" />
+      <workItem from="1645879106544" duration="7329000" />
+      <workItem from="1645977709197" duration="2551000" />
+      <workItem from="1645984444979" duration="1406000" />
+      <workItem from="1646081768703" duration="15000" />
+      <workItem from="1646081796520" duration="7000" />
+      <workItem from="1646162944969" duration="7642000" />
+      <workItem from="1646239690404" duration="7142000" />
+      <workItem from="1646335575068" duration="9000" />
+      <workItem from="1646413618092" duration="5614000" />
+      <workItem from="1646422876151" duration="784000" />
+      <workItem from="1646423669988" duration="3000" />
+      <workItem from="1646425324811" duration="1217000" />
+      <workItem from="1646568360791" duration="2221000" />
+      <workItem from="1646571184223" duration="2815000" />
+      <workItem from="1646579842729" duration="9761000" />
+      <workItem from="1646673613350" duration="6979000" />
+      <workItem from="1646691554500" duration="408000" />
+      <workItem from="1646760390552" duration="537000" />
+      <workItem from="1646760939099" duration="10992000" />
+      <workItem from="1646844447075" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
