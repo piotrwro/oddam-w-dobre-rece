@@ -234,19 +234,9 @@ document.addEventListener("DOMContentLoaded", function() {
       this.$stepInstructions[0].parentElement.parentElement.hidden = this.currentStep >= 6;
       this.$step.parentElement.hidden = this.currentStep >= 6;
 
-
+      // TODO: get data from inputs and show them in summary
     }
-  const formData = new FormData();
-  const formField = document.querySelector("form");
-  formData.append()
-  fetch('http://127.0.0.1:8000/form', {
-  method: 'POST',
-  body: formData
-  })
-  .then(response => response.json())
-  .then(result => {
-    console.log()
-  })
+
     /**
      * Submit form
      *

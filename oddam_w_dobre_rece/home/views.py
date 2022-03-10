@@ -11,17 +11,12 @@ from home.form import DonationForm
 
 class Index(View):
     def get(self, request):
-
-
-
         inst1 = Institution.objects.filter(type=1)
         inst2 = Institution.objects.filter(type=2)
         inst3 = Institution.objects.filter(type=3)
-
-
         donations = Donation.objects.all()
         inst_don = len(donations)
-        don_quantity=[]
+        don_quantity = []
         for donation in donations:
             don_quantity.append(int(donation.quantity))
             sum_quantity = sum(don_quantity)
